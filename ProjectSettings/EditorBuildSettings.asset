@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 78d87f95b10c2420caad7ef60f9214b4
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: cebe96ed5f59245349b56d9af266e27e
+  - enabled: 1
+    path: Assets/Scenes/SinglePlayerLoadScene.unity
+    guid: 6f7620fa366f6435d868a9d59950a304
+  - enabled: 1
+    path: Assets/Scenes/LobbyScene.unity
+    guid: 5fd390e390226483491bef5601fd775d
+  - enabled: 1
+    path: Assets/Scenes/CharSelectScene.unity
+    guid: b0dc0561495c84fe994a09d603660ef4
+  - enabled: 1
+    path: Assets/Scenes/GamePreloadingScene.unity
+    guid: c77f20eafb4754147bcc3c1bd0bae16f
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: add60a7635e8e456290455951fed1f0b
+  - enabled: 1
+    path: Assets/Scenes/StarshipScene.unity
+    guid: 8288295d5a7244211a4d0e30305945f7
+  m_configObjects: {}

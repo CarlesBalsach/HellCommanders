@@ -1,0 +1,6 @@
+id,prefab_name,power,min_time,radius
+0,HCEnemySpaceAnt,10,0,0.3
+1,HCEnemySpaceSpider,30,30,0.4
+2,HCEnemySpaceWasp,50,60,0.35
+3,HCEnemySpaceRoach,100,90,0.55
+4,HCEnemySpaceBeetle,200,120,0.65

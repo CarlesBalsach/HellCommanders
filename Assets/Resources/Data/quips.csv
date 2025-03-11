@@ -1,0 +1,24 @@
+id,name,command,activation_time,cooldown,main_radius,second_radius,area_of_effect,damage,size,range,min_range,rounds,image,quip_prefab,unit_prefab,Nebulium,Stellarium,Cosmonite,Astrolite,Galactium,Voidstone,Freedium,description
+0,Leave Planet,WSWDWAWSW,0,0,0.0,0.0,0.0,0,0.00,0.0,0.0,0,leave_planet,QuipLeavePlanet,,,,,,,,,Leaves the planet.
+1,Orbital Bomb 100kg,SDSS,3,3,1.0,2.0,0.0,20,0.00,0.0,0.0,0,orbital_bomb_100kg,QuipOrbitalBomb,,5,,,,,,,Drops a 100kg bomb to the target position.
+2,Orbital Bomb 200kg,SADSS,3,6,1.5,2.5,0.0,30,0.00,0.0,0.0,0,orbital_bomb_200kg,QuipOrbitalBomb,,3,2,,,,,,Drops a 200kg bomb to the target position.
+3,Orbital Bomb 300kg,SWASS,3,9,2.0,3.0,0.0,40,0.00,0.0,0.0,0,orbital_bomb_300kg,QuipOrbitalBomb,,,3,2,,,,,Drops a 300kg bomb to the target position.
+4,Orbital Bomb 400kg,SWADSS,3,12,2.5,3.5,0.0,50,0.00,0.0,0.0,0,orbital_bomb_400kg,QuipOrbitalBomb,,,,3,2,,,,Drops a 400kg bomb to the target position.
+5,Orbital Bomb 500kg,SWSADSS,3,15,3.0,4.0,0.0,60,0.00,0.0,0.0,0,orbital_bomb_500kg,QuipOrbitalBomb,,,,,3,2,,,Drops a 500kg bomb to the target position.
+6,Orbital Barrage 5x100kg,SAWSS,3,10,1.0,2.0,4.0,20,0.00,0.0,0.0,5,orbital_barrage_100kg,QuipOrbitalBarrage,,5,5,,,,,,Drops 5 100kg bombs around the targetted area.
+7,Orbital Barrage 5x200kg,SADWSS,3,15,1.5,2.5,5.0,30,0.00,0.0,0.0,5,orbital_barrage_200kg,QuipOrbitalBarrage,,,5,5,,,,,Drops 5 200kg bombs around the targetted area.
+8,Orbital Barrage 5x300kg,SADAWSS,3,20,2.0,3.0,6.0,40,0.00,0.0,0.0,5,orbital_barrage_300kg,QuipOrbitalBarrage,,,,5,5,,,,Drops 5 200kg bombs around the targetted area.
+9,Orbital Barrage 5x400kg,SASADWSS,3,25,2.5,3.5,7.0,50,0.00,0.0,0.0,5,orbital_barrage_400kg,QuipOrbitalBarrage,,,,,5,5,,,Drops 5 200kg bombs around the targetted area.
+10,Orbital Barrage 5x500kg,SWSADSWSS,3,30,3.0,4.0,8.0,60,0.00,0.0,0.0,5,orbital_barrage_500kg,QuipOrbitalBarrage,,,,,,5,5,,Drops 5 200kg bombs around the targetted area.
+11,Orbital Laser 3cm,SDADSS,1,15,0.5,0.0,0.0,10,0.00,0.0,0.0,0,orbital_laser_3cm,QuipOrbitalLaser,,,3,4,,,,,During 10 seconds a 3cm beam laser will target the closest enemy around the area.
+12,Orbital Laser 6cm,SASDSASS,1,30,0.5,0.0,0.0,20,0.00,0.0,0.0,0,orbital_laser_6cm,QuipOrbitalLaser,,,,3,4,,,,During 10 seconds 6cm beam laser will target the closest enemy around the area.
+13,Orbital Laser 9cm,SASDWADSS,1,45,0.5,0.0,0.0,30,0.00,0.0,0.0,0,orbital_laser_9cm,QuipOrbitalLaser,,,,,3,4,,,During 10 seconds 9cm beam laser will target the closest enemy around the area.
+14,Orbital Small Napalm,SDWSS,3,10,1.0,0.0,0.0,10,0.00,0.0,0.0,0,orbital_napalm_small,QuipOrbitalNapalm,,3,3,,,,,,Drops a small Napalm bomb to the target position.
+15,Orbital Big Napalm,SDADWSS,3,20,2.0,0.0,0.0,10,0.00,0.0,0.0,0,orbital_napalm_big,QuipOrbitalNapalm,,,,3,3,,,,Drops a big Napalm bomb to the target position.
+16,Single Cannon Gatling Gun,DADD,4,30,0.0,0.0,0.0,5,1.00,5.0,0.0,100,machine_gun_one,QuipUnitDeploy,HCTurretSingleCannon,2,4,,,,,,Drops a Single Cannon Gatling Gun. Don't get in the line of fire!
+17,Dual Cannon Gatling Gun,DSADD,4,45,0.0,0.0,0.0,5,1.25,6.0,0.0,120,machine_gun_two,QuipUnitDeploy,HCTurretDualCannon,,2,4,,,,,Drops a Dual Cannon Gatling Gun. Don't get in the line of fire!
+18,Dual Cannon Gatling Gun,DSAWDD,4,60,0.0,0.0,0.0,5,1.50,7.0,0.0,140,machine_gun_three,QuipUnitDeploy,HCTurretTripleCannon,,,2,2,4,,,Drops a Triple Cannon Gatling Gun. Don't get in the line of fire!
+19,Small Mortar,DWDD,4,30,0.0,0.0,0.0,15,1.0,7.0,3.0,10,mortar_small,QuipUnitDeploy,HCTurretMortarSmall,,3,3,,,,,Drops a Small Mortar. Be careful with Friendly Fire!
+20,Big Mortar,DASWDD,4,45,0.0,0.0,0.0,20,1.5,9.0,4.0,15,mortar_big,QuipUnitDeploy,HCTurretMortarBig,,,,4,4,,,Drops a Big Mortar. Be careful with Friendly Fire!
+21,Small Tesla,DSDD,4,30,0.0,0.0,0.0,10,1.0,5.0,0.0,20,tesla_small,QuipUnitDeploy,HCTurretTeslaSmall,,,2,2,,,,"Drops a Small Tesla Tower. Electricity will jump 3 times, be careful! Lighning ignores armor."
+22,Big Tesla,DSWSDD,4,60,0.0,0.0,0.0,20,1.5,7.0,0.0,30,tesla_big,QuipUnitDeploy,HCTurretTeslaBig,,,,,4,4,,"Drops a Big Tesla Tower. Electricity will jump 6 times, be careful! Lighning ignores armor."
